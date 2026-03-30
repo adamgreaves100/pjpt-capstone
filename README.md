@@ -13,7 +13,7 @@ Each writeup documents my methodology, tools used, and findings for each target 
 | Machine | Status | Writeup |
 |---------|--------|---------|
 | Blue | ✅ Complete | [View Writeup](Blue/README.md) |
-| Academy | ⬜ In Progress | - |
+| Academy | ✅ Complete | [View Writeup](Academy/README.md) |
 | Dev | ⬜ Not Started | - |
 | Butler | ⬜ Not Started | - |
 | Blackpearl | ⬜ Not Started | - |
@@ -25,6 +25,13 @@ Each writeup documents my methodology, tools used, and findings for each target 
 - **Nmap** — port scanning and enumeration
 - **Metasploit** — exploitation framework
 - **SMBclient** — SMB enumeration
+- **Nikto** — web server vulnerability scanning
+- **Dirbuster** / dirb / ffuf — web directory enumeration
+- **Hashcat** — password hash cracking
+- **Netcat** — listener for reverse shell connections
+- **LinPEAS** — Linux privilege escalation enumeration
+- **pspy** — process monitoring without root privileges
+- **Python** HTTP Server — file transfer via temporary web server
 
 ---
 
