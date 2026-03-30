@@ -1,4 +1,4 @@
-# Blue
+# Academy
 
 ## Disclaimer
 This writeup was completed as part of TCM Security's Practical Junior Penetration Tester (PJPT) certification. It is not designed to be a walkthrough of the box, nor is it intended to substitute attempting to exploit the box yourself. This writeup documents both my own attempt and the instructor's solution, as I was unable to complete this box independently. The Lessons Identified section reflects what I took away from the experience.
@@ -133,3 +133,14 @@ A second Netcat listener was set up on the attacker machine on port 8080. When t
 8. `pspy` allows processes to be monitored on a target without root privileges, making it valuable for identifying scheduled tasks (cron jobs) that may be exploitable.
 9. Cron jobs running as root are a significant privilege escalation vector. If a script executed by a root cron job is writable by a lower-privileged user, inserting a reverse shell one liner into that script will result in a root shell when the job next runs.
 10. The VM became corrupted during this lab, causing the database to become inaccessible and was only resolved by rebuilding the machine from the original image. This caused me to initially be unable to log in to the student portal, despite having correctly found the breached credentials, and therefore halted my progress. It wasn't until I watched the instructor solution that I realised I was on the right path up until this point, suggesting the original connectivity problem was a VM state issue rather than incorrect credentials.
+
+---
+
+## Tools Used
+- **Nikto** — web server vulnerability scanning
+- **Dirbuster** / dirb / ffuf — web directory enumeration
+- **Hashcat** — password hash cracking
+- **Netcat** — listener for reverse shell connections
+- **LinPEAS** — Linux privilege escalation enumeration
+- **pspy** — process monitoring without root privileges
+- **Python** HTTP Server — file transfer via temporary web server
