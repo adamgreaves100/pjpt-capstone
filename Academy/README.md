@@ -143,4 +143,4 @@ A second Netcat listener was set up on the attacker machine on port 8080. When t
 - **Netcat** — listener for reverse shell connections
 - **LinPEAS** — Linux privilege escalation enumeration
 - **pspy** — process monitoring without root privileges
-- **Python** HTTP Server — file transfer via temporary web server
+- **Python HTTP Server** — file transfer via temporary web server
