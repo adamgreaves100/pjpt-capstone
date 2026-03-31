@@ -14,7 +14,7 @@ Each writeup documents my methodology, tools used, and findings for each target 
 |---------|--------|---------|
 | Blue | ✅ Complete | [View Writeup](Blue/README.md) |
 | Academy | ✅ Complete | [View Writeup](Academy/README.md) |
-| Dev | ⬜ Not Started | - |
+| Dev | ✅ Complete | [View Writeup](Dev/README.md) |
 | Butler | ⬜ Not Started | - |
 | Blackpearl | ⬜ Not Started | - |
 
@@ -32,6 +32,10 @@ Each writeup documents my methodology, tools used, and findings for each target 
 - **LinPEAS** — Linux privilege escalation enumeration
 - **pspy** — process monitoring without root privileges
 - **Python** HTTP Server — file transfer via temporary web server
+- **John the Ripper / fcrackzip** — password cracking
+- **NFS tools** (showmount, mount) — share enumeration and access
+- **GTFOBins** — privilege escalation techniques
+- **SSH** — remote access to target system
 
 ---
 
