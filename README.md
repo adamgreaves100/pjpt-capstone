@@ -16,7 +16,7 @@ Each writeup documents my methodology and the course instructor's methodology if
 | Academy | ✅ Complete | [View Writeup](02-Academy/README.md) |
 | Dev | ✅ Complete | [View Writeup](03-Dev/README.md) |
 | Butler | ✅ Complete | [View Writeup](04-Butler/README.md) |
-| Blackpearl | ⬜ Not Started | - |
+| Blackpearl | ✅ Complete | [View Writeup](05-Blackpearl/README.md) |
 
 ---
 
@@ -42,6 +42,8 @@ Each writeup documents my methodology and the course instructor's methodology if
 - **PrintSpoofer** — token impersonation privilege escalation
 - **msfvenom** — reverse shell payload generation
 - **certutil** — file download on Windows targets
+- **dnsrecon** — DNS enumeration and reverse lookup
+- **Python TTY spawn** — interactive shell upgrade
 
 ---
 
