@@ -56,7 +56,7 @@ This revealed several directories, notably /app/, which exposed configuration-re
 
 Given that NFS was exposed, I proceeded to enumerate available shares.
 
-Using `showmount -e 192.168.186.141`, I identified the /srv/nfs share and mounted it locally using `sudo mount -t nfs 192.168.186.141:/srv/nfs /tmp/nfsshare`.
+Using `showmount -e 192.168.186.141`, I identified the `/srv/nfs` share and mounted it locally using `sudo mount -t nfs 192.168.186.141:/srv/nfs /tmp/nfsshare`.
 
 Within the mounted directory, I discovered a file named `save.zip`. After extracting it, I found two files:
 
