@@ -72,12 +72,7 @@ For FTP, the instructor connected by entering Anonymous twice — using the word
 
 The note.txt file was downloaded in the same way using `get note.txt`.
 
-Rather than an online tool, the instructor used the command line tool hash-identifier to identify the hash type:
-
-hash-identifier
-The hash was then cracked using Hashcat with the `rockyou` wordlist. The hash was first saved to a file: `mousepad hashes.txt`
-
-Then cracked with: `hashcat -m 0 hashes.txt /usr/share/wordlists/rockyou.txt`
+Rather than an online tool, the instructor used the command line tool `hash-identifier` to identify the hash type. The hash was then cracked using Hashcat with the `rockyou` wordlist. The hash was first saved to a file: `mousepad hashes.txt`, then cracked with: `hashcat -m 0 hashes.txt /usr/share/wordlists/rockyou.txt`
 The `-m 0` flag specifies MD5. This returned the cracked password: `student`.
 
 For web directory discovery, the instructor demonstrated two additional tools alongside Dirbuster:
