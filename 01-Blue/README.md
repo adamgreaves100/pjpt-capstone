@@ -1,7 +1,7 @@
 # Blue
 
 ## Disclaimer
-This writeup was completed as part of TCM Security's Practical Junior Penetration Tester (PJPT) certification. It is not designed to be a walkthrough of the box, nor is it intended to substitute attempting to exploit the box yourself. This was my first ever attempt at exploiting a machine independently. Undoubtedly there are better ways of achieving the same outcome.
+This writeup was completed as part of TCM Security's Practical Junior Penetration Tester (PJPT) certification. It is not designed to be a walkthrough of the box, nor is it intended to substitute attempting to exploit the box yourself. This was my first ever attempt at exploiting a machine independently - undoubtedly there are better ways of achieving the same outcome.
 
 ---
 
